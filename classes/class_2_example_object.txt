@@ -1,4 +1,4 @@
-Object: dinner plate
+Object: dinner_plate
 
 Attributes:
 diameter: 1
