@@ -1,0 +1,15 @@
+Object: five_gallon_pot
+
+Attributes:
+on_burner: true
+lid_is_on: true
+pot_is_boiling: true
+time_on_burner: 6
+total_capacity: 5
+current_capacity: 1
+
+Methods:
+calculate_percent_full: 1 / 5 = 0.2
+fill: 2
+put_on_burner: on_burner = true
+boil_pot: pot_is_boiling = true
