@@ -1,0 +1,10 @@
+food = "Food is good"
+is_delicious = true
+food = "Food is life"
+num2 = 2
+num7 = 7
+quotient = num7 / num2
+songs = ["Yesterday", "American Pie"]
+songs.shift(1)
+food.length
+ls
