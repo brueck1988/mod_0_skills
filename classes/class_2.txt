@@ -1,0 +1,15 @@
+Class: Plate
+
+Attributes:
+diameter (integer)
+density (integer)
+color (string)
+clean (boolean)
+total_capacity:
+current_capacity (integer)
+
+Methods:
+wash: (sets clean to true)
+fill: (adds 10 to current_capacity)
+calculate_percent_full (divides current_capacity by total_capacity)
+calculate_area_of_plate: (0.25*pi*diameter^2)
