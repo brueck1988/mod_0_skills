@@ -4,12 +4,12 @@ Attributes:
 diameter (integer)
 density (integer)
 color (string)
-clean (boolean)
+is_clean (boolean)
 total_capacity:
 current_capacity (integer)
 
 Methods:
-wash: (sets clean to true)
+wash: (sets is_clean to true)
 fill: (adds 10 to current_capacity)
 calculate_percent_full (divides current_capacity by total_capacity)
-calculate_area_of_plate: (0.25*pi*diameter^2)
+calculate_area: (0.25*pi*diameter^2)

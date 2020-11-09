@@ -1,15 +1,15 @@
-Object: dinner_plate
+Object: dinner
 
 Attributes:
 diameter: 1
 density: 5
 color: "white"
-clean: false
+is_clean: false
 total_capacity: 100
 current_capacity: 10
 
 Methods:
-wash: clean=true
+wash: is_clean=true
 fill: 20
 calculate_percent_full: 10 / 100 = 0.1
-calculate_area_of_plate: 0.25*pi*1^2 = .79
+calculate_area: 0.25*pi*1^2 = .79
