@@ -1,9 +1,9 @@
 Class: Pot
 
 Attributes:
-on_burner (boolean)
-lid_is_on (boolean)
-pot_is_boiling (boolean)
+is_heating (boolean)
+is_covered_with_lid (boolean)
+is_boiling (boolean)
 time_on_burner (integer)
 total_capacity (integer)
 current_capacity (integer)
@@ -11,5 +11,5 @@ current_capacity (integer)
 Methods:
 calculate_percent_full (divides current_capacity by total_capacity)
 fill (adds 1 to current_capacity)
-put_on_burner (toggles on_burner to true)
-boil_pot (if lid_is_on=true and time_on_burner > 5 toggles pot_is_boiling to true)
+put_on_burner (toggles is_heating to true)
+boil (if is_covered_with_lid=true and time_on_burner > 5 toggles is_boiling to true)
