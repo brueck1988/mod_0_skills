@@ -1,4 +1,4 @@
-Object: five_gallon_pot
+Object: five_gallon
 
 Attributes:
 is_heating: true
